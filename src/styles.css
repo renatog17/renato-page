@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@import '@fontsource/roboto';
+
+:root{
+    --azul-marinho:#12104d;
+    --branco: white;
+    --verde: rgb(37, 179, 41);
+}
+
+body{
+    background-color: var(--azul-marinho);
+    font-family: 'Roboto';
+}

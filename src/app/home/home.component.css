@@ -1,0 +1,45 @@
+.home{
+    margin-top:100px ;
+    margin-left: 120px;
+}
+p{
+    color: var(--verde);
+}
+h1{
+    color: var(--branco);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.buttons{
+    color: var(--branco);
+    display: flex;
+    text-align: center;
+}
+
+.button{
+    padding: 5px;
+    width: 150px;
+    border: 1px solid var(--verde);
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.button:hover{
+    background-color: var(--verde);
+}
+
+@media screen and (max-width:600px) {
+    .home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
