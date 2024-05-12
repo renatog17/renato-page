@@ -1,0 +1,47 @@
+.about-me{
+    margin-top:140px ;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-about-me{
+    height: 350px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.texto{
+    margin-left: 30px;
+}
+
+p{
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 0px;
+    text-align: justify;
+    line-height: 2em;
+    font-size: 20px;
+    color: var(--branco);
+}
+
+@media screen and (max-width:600px){
+    .about-me{
+        flex-direction: column;
+        height: 350px;
+        width: 350px;
+        margin: 0px;
+        align-items: center;
+    }
+    .img-about-me{
+        height: 200px;
+    }
+    .texto{
+        margin: 0px;
+        align-items: center;
+    }
+    .responsivo{
+        display: none;
+    }
+}

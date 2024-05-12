@@ -1,12 +1,15 @@
 .home{
+    height: 350px;
     margin-top:140px ;
     margin-left: 200px;
 }
 p{
+    margin: 12px 0;
     font-size: 40px;
     color: var(--verde);
 }
 h1{
+    margin: 12px 0;
     font-size: 60px;
     color: var(--branco);
 }
@@ -17,6 +20,7 @@ a{
 }
 
 .buttons{
+    margin: 19px 0;
     color: var(--branco);
     display: flex;
     text-align: center;
@@ -35,6 +39,9 @@ a{
     background-color: var(--verde);
 }
 
+#btn-primario{
+    background-color: var(--verde);
+}
 @media screen and (max-width:600px) {
     .home{
         margin: 0;
@@ -44,6 +51,6 @@ a{
         align-items: center;
     }
     h1{
-        font-size: 20px;
+        font-size: 40px;
     }
 }
