@@ -1,0 +1,25 @@
+.card-project{
+    background-color: var(--verde);
+    margin: 30px;
+    width: 300px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.card-project:hover{
+    background-color: rgb(255, 136, 0);
+    transform: scale(1.1);
+}
+
+.tecnologia-icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.img-project{
+    width: 290px;   
+    margin: 5px;
+    border-radius: 5px;
+}
+
