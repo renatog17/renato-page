@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-card-project',
@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class CardProjectComponent {
 
+  @Input() imagePath?: string;
+  @Input() titulo?: string;
+  @Input() descricao?: string;
+  @Input() link?: string;
+  @Input() iconTecnologias: string[] = [];
 }
