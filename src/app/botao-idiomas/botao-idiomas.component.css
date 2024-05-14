@@ -1,0 +1,11 @@
+.idiomas{
+    display: flex;
+    flex-direction: raw;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+.flag-icon{
+    width: 25px;
+    border-radius: 50px;
+}
