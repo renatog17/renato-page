@@ -9,7 +9,8 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { CardProjectComponent } from './projects/card-project/card-project.component';
-import { BotaoIdiomasComponent } from './botao-idiomas/botao-idiomas.component';
+import { BotaoIdiomasComponent } from './header/botao-idiomas/botao-idiomas.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BotaoIdiomasComponent } from './botao-idiomas/botao-idiomas.component';
     ContactComponent,
     FooterComponent,
     CardProjectComponent,
-    BotaoIdiomasComponent
+    BotaoIdiomasComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

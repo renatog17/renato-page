@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 50px;
+}
+.logo{
+    color: var(--branco);
+    font-family: 'Herr Von Muellerhoff', cursive;
+    margin-right: auto;
+}
+
+.idiomas-flags{
+    margin-left: auto;
+}
