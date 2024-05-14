@@ -1,0 +1,9 @@
+.main-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.app-footer{
+    display: flex;
+    justify-content: center;
+}
