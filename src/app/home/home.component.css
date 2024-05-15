@@ -1,18 +1,29 @@
-
 .home{
     height: 350px;
-    margin-top:140px ;
+    margin-top:40px ;
     margin-left: 200px;
+}
+.cumprimento{
+    font-family: 'Roboto Mono Variable', monospace;
+    font-size: 25px;
+    color: var(--secundaria);
+}
+.profissao{
+    color: var(--terciaria);
+    font-size: 35px;
+}
+.apresentacao{
+    color: var(--branco);
+    letter-spacing: 1px;
 }
 p{
     margin: 12px 0;
-    font-size: 40px;
-    color: var(--verde);
+    
 }
 h1{
     margin: 12px 0;
     font-size: 60px;
-    color: var(--branco);
+    color: var(--terciaria);
 }
 
 a{
@@ -31,7 +42,7 @@ a{
     padding: 8px;
     font-size: 22px;
     width: 170px;
-    border: 1px solid var(--verde);
+    border: 1px solid var(--secundaria);
     border-radius: 3px;
     margin-right: 10px;
 }

@@ -3,13 +3,15 @@
 @import '@fontsource/herr-von-muellerhoff';
 
 :root{
-    --azul-marinho:#111a28;
+    --cor-de-fundo:#06283D;
     --branco: white;
-    --verde: rgb(37, 179, 41);
+    --terciaria: #DFF6FF;
+    --secundaria: #47B5FF;
+    --primaria: #1363DF;
 }
 
 body{
-    background-color: var(--azul-marinho);
+    background-color: var(--cor-de-fundo);
     font-family: 'Roboto';
 }
 
@@ -18,7 +20,7 @@ body{
 }
 
 ::-webkit-scrollbar-track {
-    background: var(--azul-marinho); /* Cor do track (fundo da barra de rolagem) */
+    background: var(--cor-de-fundo); /* Cor do track (fundo da barra de rolagem) */
 }
 
 ::-webkit-scrollbar-thumb {
