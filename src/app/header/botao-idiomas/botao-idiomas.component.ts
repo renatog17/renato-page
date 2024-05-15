@@ -8,14 +8,20 @@ import { AlterarIdiomaService } from 'src/app/alterar-idioma.service';
 })
 export class BotaoIdiomasComponent {
 
+  portuguesAtivo: boolean = false;
+  inglesAtivo: boolean = true;
   constructor(private alterarIdiomaService: AlterarIdiomaService) {
     
   }
 
   alterarIdiomaParaPortugues(){
     this.alterarIdiomaService.alterarIdioma('pt');
+    this.inglesAtivo = false;
+    this.portuguesAtivo = true;
   }
   alterarIdiomaParaIngles(){
     this.alterarIdiomaService.alterarIdioma('en');
+    this.inglesAtivo = true;
+    this.portuguesAtivo = false;
   }
 }
