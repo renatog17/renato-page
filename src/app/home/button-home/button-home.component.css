@@ -1,0 +1,10 @@
+a{
+    padding: 8px;
+    font-size: 22px;
+    width: 170px;
+    border: 1px solid var(--secundaria);
+    border-radius: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+

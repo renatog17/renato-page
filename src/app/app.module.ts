@@ -12,7 +12,7 @@ import { CardProjectComponent } from './projects/card-project/card-project.compo
 import { BotaoIdiomasComponent } from './header/botao-idiomas/botao-idiomas.component';
 import { HeaderComponent } from './header/header.component';
 import { IdiomaVisibilidadeDirective } from './directives/idioma-visibilidade.directive';
-import { ButtonHomeComponent } from './button-home/button-home.component';
+import { ButtonHomeComponent } from './home/button-home/button-home.component';
 
 @NgModule({
   declarations: [
