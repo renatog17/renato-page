@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { CardProjectComponent } from './projects/card-project/card-project.component';
 import { BotaoIdiomasComponent } from './header/botao-idiomas/botao-idiomas.component';
 import { HeaderComponent } from './header/header.component';
+import { IdiomaVisibilidadeDirective } from './directives/idioma-visibilidade.directive';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HeaderComponent } from './header/header.component';
     FooterComponent,
     CardProjectComponent,
     BotaoIdiomasComponent,
-    HeaderComponent
+    HeaderComponent,
+    IdiomaVisibilidadeDirective
   ],
   imports: [
     BrowserModule,

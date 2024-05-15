@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AlterarIdiomaService } from 'src/app/alterar-idioma.service';
 
 @Component({
   selector: 'app-botao-idiomas',
@@ -7,4 +8,14 @@ import { Component } from '@angular/core';
 })
 export class BotaoIdiomasComponent {
 
+  constructor(private alterarIdiomaService: AlterarIdiomaService) {
+    
+  }
+
+  alterarIdiomaParaPortugues(){
+    this.alterarIdiomaService.alterarIdioma('pt');
+  }
+  alterarIdiomaParaIngles(){
+    this.alterarIdiomaService.alterarIdioma('en');
+  }
 }
