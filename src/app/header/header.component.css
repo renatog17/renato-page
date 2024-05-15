@@ -5,7 +5,7 @@
     
 }
 .logo{
-    color: var(--branco);
+    color: rgb(155, 208, 255);
     font-family: 'Herr Von Muellerhoff', cursive;
     margin-right: auto;
 }

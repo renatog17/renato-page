@@ -13,22 +13,13 @@
     font-size: 35px;
 }
 .apresentacao{
-    color: var(--branco);
+    color: rgb(155, 208, 255);
     letter-spacing: 1px;
 }
-p{
-    margin: 12px 0;
-    
-}
-h1{
+.nome{
     margin: 12px 0;
     font-size: 60px;
     color: var(--terciaria);
-}
-
-a{
-    text-decoration: none;
-    color: inherit;
 }
 
 .buttons{
