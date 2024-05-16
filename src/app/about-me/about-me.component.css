@@ -6,15 +6,35 @@
     flex-direction: row;
 }
 
-.img-about-me{
-    height: 350px;
-    border-radius: 5px;
-    border: 2px solid black;
+.texto{
+    margin-right: 210px;
 }
 
-.texto{
-    margin-left: 30px;
+.titulo{
+    font-family: 'Roboto Mono Variable', monospace;
+    font-size: 25px;
+    color: var(--secundaria);
 }
+
+.descricao{
+    color: rgb(155, 208, 255);
+    font-size: 17px;
+}
+
+.img-about-me{
+    width: 200px;
+    height: 300px;
+    margin-top: 60px;
+    margin-right: 50px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 0px rgba(0, 221, 255, 0.5);
+    transition: box-shadow 0.3s ease;
+}
+
+.img-about-me:hover {
+    box-shadow: 15px 15px 0px rgba(0, 221, 255, 0.8); /* Altera a sombra no hover */
+}
+
 
 p{
     margin: 0px;
