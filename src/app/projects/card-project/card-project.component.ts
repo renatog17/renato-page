@@ -10,6 +10,7 @@ export class CardProjectComponent {
   @Input() imagePath?: string;
   @Input() titulo?: string;
   @Input() descricao?: string;
-  @Input() link?: string;
+  @Input() linkDeploy?: string;
+  @Input() linkGitHub?: string;
   @Input() iconTecnologias: string[] = [];
 }

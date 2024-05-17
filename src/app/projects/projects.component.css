@@ -1,7 +1,16 @@
 .projects{
-    display: flex;
-    flex-wrap: wrap;
     margin-right: 200px;
     margin-top:140px ;
     margin-left: 200px;
+}
+
+.cards-projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo{
+    font-family: 'Roboto Mono Variable', monospace;
+    font-size: 25px;
+    color: var(--secundaria);
 }

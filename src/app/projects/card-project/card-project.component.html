@@ -1,6 +1,17 @@
 <div class="card-project">
-    <img class="img-project" [src]="imagePath">
-    <a class="titulo" [href]="link" target="_blank">{{ titulo }}</a>
+    <div class="header">
+        <img class="folder-icon" src="../../assets/icones-tools/file-and-folder.png">
+        <a class="titulo" [href]="linkDeploy" target="_blank">{{ titulo }}</a>
+        <div class="project-externo">
+            <a [href]="linkGitHub" target="_blank">
+                <img class="github-icon" src="../../assets/icones-tools/github.png">
+            </a>
+            <a [href]="linkDeploy" target="_blank">
+                <img class="link-icon"  src="../../assets/icones-tools/simbolo-de-link-externo.png">
+            </a>
+        </div>
+    </div>
+    <!--<img class="img-project" [src]="imagePath">-->
     <p class="descricao" >{{descricao}}</p>
     <div class="tecnologias">
         <img class="tecnologia-icon" *ngFor=" let icon of iconTecnologias" [src]="icon" >
